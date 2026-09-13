@@ -1,0 +1,20 @@
+{
+  "log_level": "INFO",
+  "output_dir": ".",
+  "theme": "dark",
+  "timeout_seconds": 5,
+  "max_threads": 256,
+  "scan_speed": "normal",
+  "user_agent": "SecurityToolkitSuite/0.1.0",
+  "proxy": {
+    "host": "",
+    "port": 0,
+    "type": ""
+  },
+  "paths": {
+    "wordlists": "data/wordlists",
+    "yara_rules": "data/yara",
+    "volatility_profiles": ""
+  },
+  "tool_defaults": {}
+}
